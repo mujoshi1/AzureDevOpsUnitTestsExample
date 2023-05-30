@@ -1,9 +1,9 @@
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: 'windows-latest'
 
-trigger: none
-pr: none 
+trigger:
+- master
 
 stages:
 
